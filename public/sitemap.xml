@@ -3,4 +3,17 @@
     <url>
         <loc>https://williamblackerby.com/</loc>
     </url>
+    <url>
+        <loc>https://williamblackerby.com/posts/</loc>
+    </url>
+    <url>
+        <loc>https://williamblackerby.com/posts/building-it-myself/</loc>
+        <lastmod>2025-01-27</lastmod>
+    </url>
+    <url>
+        <loc>https://williamblackerby.com/tags/</loc>
+    </url>
+    <url>
+        <loc>https://williamblackerby.com/tags/rust/</loc>
+    </url>
 </urlset>
