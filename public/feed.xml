@@ -4,8 +4,45 @@
 	<subtitle>My home on the web</subtitle>
 	<link href="https://williamblackerby.com/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://williamblackerby.com"/>
-	<updated>2025-01-27T00:00:00+00:00</updated>
+	<updated>2025-03-30T00:00:00+00:00</updated>
 	<id>https://williamblackerby.com/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Some ideas</title>
+		<published>2025-03-30T00:00:00+00:00</published>
+		<updated>2025-03-30T00:00:00+00:00</updated>
+		<link href="https://williamblackerby.com/posts/some-ideas/" type="text/html"/>
+		<id>https://williamblackerby.com/posts/some-ideas/</id>
+		<content type="html">&lt;p&gt;I typically learn best when motivated to work on something practical, and am currently a bit adrift with respect to where and how to devote my learning energy in a productive way.&lt;&#x2F;p&gt;
+&lt;p&gt;So this post should serve as a place for me to capture some ideas and that I can return to when feeling stuck.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tooling-for-relax-ng-compact&quot;&gt;Tooling for RELAX NG Compact&lt;a class=&quot;zola-anchor&quot; href=&quot;#tooling-for-relax-ng-compact&quot; aria-label=&quot;Anchor link for: tooling-for-relax-ng-compact&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;At $work I&#x27;ve been developing a schema using RELAX NG Compact syntax for an XML data format my team works with. Below are a couple of ideas for related projects.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rnc2rng-rs&quot;&gt;rnc2rng-rs&lt;a class=&quot;zola-anchor&quot; href=&quot;#rnc2rng-rs&quot; aria-label=&quot;Anchor link for: rnc2rng-rs&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;djc&#x2F;rnc2rng&quot;&gt;rnc2rng&lt;&#x2F;a&gt; is a Python tool for converting RELAX NG Compact to RELAX NG&#x27;s XML representation. It might be fun to port this to Rust. As an aside, it appears the maintainer is a skilled Rust developer.&lt;&#x2F;p&gt;
+&lt;p&gt;A good first step, valuable on its own, might be to port the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;djc&#x2F;rnc2rng&#x2F;blob&#x2F;main&#x2F;rnc2rng&#x2F;parser.py#L15&quot;&gt;lexer&lt;&#x2F;a&gt; to Rust using &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.rs&#x2F;logos&#x2F;latest&#x2F;logos&#x2F;&quot;&gt;Logos&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;study-tree-sitter-rnc&quot;&gt;Study tree-sitter-rnc&lt;a class=&quot;zola-anchor&quot; href=&quot;#study-tree-sitter-rnc&quot; aria-label=&quot;Anchor link for: study-tree-sitter-rnc&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I thought I had an original idea (does such a thing exist?): to create a &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;tree-sitter.github.io&#x2F;tree-sitter&#x2F;&quot;&gt;Tree-sitter&lt;&#x2F;a&gt; parser for RELAX NG Compact. A web quick search quickly informed me that a brilliant person has &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;LdBeth&#x2F;tree-sitter-rnc&quot;&gt;already done so&lt;&#x2F;a&gt;. So, my new idea: learn from this work, and perhaps figure out how to incorporate it into Neovim.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;useful-resources&quot;&gt;Useful resources&lt;a class=&quot;zola-anchor&quot; href=&quot;#useful-resources&quot; aria-label=&quot;Anchor link for: useful-resources&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;relaxng.org&#x2F;compact-tutorial-20030326.html&quot;&gt;RELAX NG Compact Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;relaxng.org&#x2F;compact.html&quot;&gt;RELAX NG Compact Spec&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xml-and-rust&quot;&gt;XML and Rust&lt;a class=&quot;zola-anchor&quot; href=&quot;#xml-and-rust&quot; aria-label=&quot;Anchor link for: xml-and-rust&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;I saw &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;blog.startifact.com&#x2F;posts&#x2F;xee&#x2F;&quot;&gt;this blog post&lt;&#x2F;a&gt; on &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;lobste.rs&#x2F;&quot;&gt;https:&#x2F;&#x2F;lobste.rs&#x2F;&lt;&#x2F;a&gt; this past week. It seems like a great way to learn more about XML, Rust, and programming language implementation. I hope this project succeeds.&lt;&#x2F;p&gt;
+&lt;p&gt;A good place to start reading the code is the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Paligo&#x2F;xee&#x2F;tree&#x2F;main&#x2F;xee-xpath-lexer&quot;&gt;lexer&lt;&#x2F;a&gt;, which uses Logos (mentioned above). I&#x27;ll need to have the &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.w3.org&#x2F;TR&#x2F;xpath-31&#x2F;&quot;&gt;XPath spec&lt;&#x2F;a&gt; open next to it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;a class=&quot;zola-anchor&quot; href=&quot;#miscellaneous&quot; aria-label=&quot;Anchor link for: miscellaneous&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;My mind and interests are always flitting around. Capturing some stray ideas here:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Work through &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;tumbleforth.hardcoded.net&#x2F;&quot;&gt;Tumble Forth&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Study up to get past Sequence Counter in TIS-100&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Building it myself</title>
 		<published>2025-01-27T00:00:00+00:00</published>
