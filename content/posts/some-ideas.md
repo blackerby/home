@@ -1,6 +1,9 @@
 +++
 title = "Some ideas"
 date = 2025-03-30
+
+[taxonomies]
+tags = ["rust", "xml", "parsing", "tree-sitter"]
 +++
 
 I typically learn best when motivated to work on something practical, and am currently a bit adrift with respect to where and how to devote my learning energy in a productive way.

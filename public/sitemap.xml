@@ -18,6 +18,15 @@
         <loc>https://williamblackerby.com/tags/</loc>
     </url>
     <url>
+        <loc>https://williamblackerby.com/tags/parsing/</loc>
+    </url>
+    <url>
         <loc>https://williamblackerby.com/tags/rust/</loc>
+    </url>
+    <url>
+        <loc>https://williamblackerby.com/tags/tree-sitter/</loc>
+    </url>
+    <url>
+        <loc>https://williamblackerby.com/tags/xml/</loc>
     </url>
 </urlset>
