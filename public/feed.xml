@@ -4,8 +4,34 @@
 	<subtitle>My home on the web</subtitle>
 	<link href="https://williamblackerby.com/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://williamblackerby.com"/>
-	<updated>2025-03-30T00:00:00+00:00</updated>
+	<updated>2025-08-11T00:00:00+00:00</updated>
 	<id>https://williamblackerby.com/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Tools</title>
+		<published>2025-08-11T00:00:00+00:00</published>
+		<updated>2025-08-11T00:00:00+00:00</updated>
+		<link href="https://williamblackerby.com/posts/tools/" type="text/html"/>
+		<id>https://williamblackerby.com/posts/tools/</id>
+		<content type="html">&lt;p&gt;I&#x27;ve been trying to simplify the tools, setups, and configurations I use daily on my personal machine and want to document some of that here.  As I have been working on improving my knowledge of C, I&#x27;m trying to use some small(ish) fast tools with codebases I may be able to understand, look to for examples, and even hack on.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;terminal-emulator&quot;&gt;Terminal emulator&lt;a class=&quot;zola-anchor&quot; href=&quot;#terminal-emulator&quot; aria-label=&quot;Anchor link for: terminal-emulator&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;ve started using &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&#x2F;dnkl&#x2F;foot&quot;&gt;foot&lt;&#x2F;a&gt; in the last week or so.  So far so good.  I may have more to say later.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;text-editor&quot;&gt;Text editor&lt;a class=&quot;zola-anchor&quot; href=&quot;#text-editor&quot; aria-label=&quot;Anchor link for: text-editor&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;After yet another foray in &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;helix-editor.com&#x2F;&quot;&gt;Helix&lt;&#x2F;a&gt;, I&#x27;m back on &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;Neovim&lt;&#x2F;a&gt;.  I tried a no-frills config based on a nightly build to play around with using the new built-in package manager and LSP stuff, but I&#x27;ve reinstalled &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-lua&#x2F;kickstart.nvim&quot;&gt;kickstart.nvim&lt;&#x2F;a&gt; for a break from banging my head against the wall.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;other-software&quot;&gt;Other software&lt;a class=&quot;zola-anchor&quot; href=&quot;#other-software&quot; aria-label=&quot;Anchor link for: other-software&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;git-forge&quot;&gt;Git forge&lt;a class=&quot;zola-anchor&quot; href=&quot;#git-forge&quot; aria-label=&quot;Anchor link for: git-forge&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ve started moving some projects over to &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&#x2F;&quot;&gt;Codeberg&lt;&#x2F;a&gt; from Github.  I haven&#x27;t dived especially deep into using it, but so far it does what I need it to do.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;news-reader&quot;&gt;News reader&lt;a class=&quot;zola-anchor&quot; href=&quot;#news-reader&quot; aria-label=&quot;Anchor link for: news-reader&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;m trying &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;newsboat.org&#x2F;index.html&quot;&gt;Newsboat&lt;&#x2F;a&gt; again.  Last time I tried it I didn&#x27;t have a problem with the software itself.  My problem was that I subscribed to too many feeds and eventually gave up on RSS.  This time I&#x27;m trying not to overload my URLs file.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-s-next&quot;&gt;What&#x27;s next&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-s-next&quot; aria-label=&quot;Anchor link for: what-s-next&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;d love to simplify this site by getting away from a static site generator and maybe even making HTML files by hand.  I&#x27;d also like to simplify the hosting by using something other than a cloud provider.  Whether or not I actually do it is the question because I&#x27;m spending my energy elsewhere at the moment, but it&#x27;s on my list.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Some ideas</title>
 		<published>2025-03-30T00:00:00+00:00</published>
